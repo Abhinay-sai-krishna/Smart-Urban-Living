@@ -1,0 +1,5 @@
+{
+  "name": "Smart Urban Living Dashboard",
+  "description": "A responsive web dashboard to monitor and improve city sustainability using real-time data visualization and AI-powered insights from the Gemini API. The app features modules for transport, energy, waste, and pollution, with different views for city officials and citizens.",
+  "requestFramePermissions": []
+}
