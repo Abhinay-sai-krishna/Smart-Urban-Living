@@ -1,15 +1,13 @@
 
-<!-- AIGNITE Banner (centered) -->
 <div align="center">
-  <h1> AIGNITE 2K25</h1>
-  <p><strong>Powered by MLSC</strong></p>
+  <h1> Smart Urban Living</h1>
 </div>
 
 ---
 
 <p align="center">
   <strong>    </strong><br/>
-  <em>Building the sustainable city of tomorrow, today.</em>
+  <em>Building the sustainable city of today, tomorrow.</em>
 </p>
 
 ---
@@ -91,20 +89,6 @@
   
     **Automated Actions & Workflows:** Enable officials to not only view AI suggestions but also to trigger actions directly from the dashboard—for example, automatically dispatching a waste collection team or updating digital traffic signs.
 
----
-
-## 👥 Team Details
-**Team Name:** `Code Crash`
-
-| Name | Role | Email |
-|---|---:|---|
-| Member 1 Name| K.Abhinay Sai Krishna | kondapalliabhinaysaikrishna@gmail.com |
-| Member 2 Name| Mahankali Sai Manaswini | mdrsm2005@gmail.com |
-| Member 3 Name| Dulla Bal Reddy | balreddydulla@gmail.com |
-| Member 4 Name| Balamurgan illavarsan | balamurganillavarasan@gmail.com |
-
----
-
 ## 🛠️ Technology Stack
 `React & TypeScript` | `Google Gemini API` | `Google Maps Platform` | ` Tailwind CSS` | `Recharts`
 
@@ -120,44 +104,7 @@
 
 ---
 
-## 📚 References
-- Resource 1  **Google AI for Developers (Gemini API Documentation)**
-
-    Link: https://ai.google.dev/docs
-
-    Why it's helpful for this project: This is the primary resource for all AI-powered features. The geminiService.ts file relies heavily on the @google/genai library. This documentation explains how to properly   initialize the client, make generateContent calls, and, most importantly, how to use responseSchema to get structured JSON output for features like the waste collection route optimization.
-- Resource 2   **Google Maps Platform Documentation**
-
-    Link: https://developers.google.com/maps
-
-    Why it's helpful for this project: The interactive map is a core feature. This documentation is essential for three key APIs used in the application:
-    Maps JavaScript API: For rendering the main map, markers, info windows, heatmaps, and the real-time traffic layer (Map.tsx).
-
-    Routes API: Crucial for the "Plan a Route" feature, explaining how to make the request and decode the polyline to draw the route on the map.
-
-    Air Quality API: Used in dataService.ts to fetch the real-time AQI data that powers the pollution module.
-
-- Resource 3 **React, Recharts, and Tailwind CSS Documentation**
-    Links:
-
-    React: https://react.dev/
-
-    Recharts: https://recharts.org/
-
-    Tailwind CSS: https://tailwindcss.com/
-
-
-    Why they're helpful for this project: This group of references covers the entire user interface construction.
-
-    React: The documentation is fundamental for understanding the component-based architecture, state management with hooks (useState, useEffect), and props system used throughout the app.
-
-    Recharts: This is the go-to guide for creating all the data visualizations (area charts, line charts) found on the Dashboard, Transport, and Pollution pages.
-
-    Tailwind CSS: As a utility-first framework, its documentation is indispensable for quickly finding the right classes to implement the project's responsive design, dark theme, and custom styling.
-
----
-
-## 🖼️ Assets / Screenshots
+## 🖼️ Screenshots
 
 <img width="1919" height="957" alt="1" src="https://github.com/user-attachments/assets/a83b176b-4b7c-4c18-be9b-d425779b8d57" />
 <img width="1893" height="969" alt="2" src="https://github.com/user-attachments/assets/9d6f902c-fafc-4618-b289-354ae453f4dd" />
